@@ -1,0 +1,5 @@
+{
+  "id": "/", "name": "Creative Studio", "short_name": "Creative Studio",
+  "description": "The Open Creative Platform", "start_url": "/", "scope": "/",
+  "display": "standalone", "background_color": "#090b10", "theme_color": "#090b10", "lang": "fr"
+}
