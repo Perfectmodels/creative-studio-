@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
 import {
   ArrowUpRight, AudioLines, Captions, CheckCircle2, FileImage, FileVideo,
@@ -89,10 +90,10 @@ export default function Home() {
     <main className="min-h-screen">
       <header className="border-b border-studio-line">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-5">
-          <a href="/" className="flex items-center gap-3 font-semibold tracking-tight">
+          <Link href="/" className="flex items-center gap-3 font-semibold tracking-tight">
             <span className="grid h-9 w-9 place-items-center rounded-xl bg-violet-400 text-black"><Sparkles size={19} /></span>
             <span>creative<span className="text-violet-300">studio</span></span>
-          </a>
+          </Link>
           <div className="hidden items-center gap-2 rounded-full border border-studio-line px-3 py-1.5 text-xs text-studio-muted sm:flex"><ShieldCheck size={14} /> Local-first · Open source</div>
           <a href="https://github.com/Perfectmodels/creative-studio-" target="_blank" rel="noreferrer" className="flex items-center gap-2 text-sm text-studio-muted hover:text-white">GitHub <ArrowUpRight size={15} /></a>
         </div>
